@@ -87,20 +87,21 @@ These observations are documented to reflect real system behavior and demonstrat
 ---
 
 ## Project Structure
+
 ## Project Structure
+
+```
 orangehrm-leave-automation
 ├── pom.xml
 ├── testng.xml
 ├── README.md
 └── src
-└── test
-└── java
-├── base
-├── pages
-└── tests
+    └── test
+        └── java
+            ├── base
+            ├── pages
+            └── tests
 
-yaml
-Copy code
 
 ---
 
@@ -113,11 +114,12 @@ Copy code
 - Internet connection
 
 ### Steps
-1. Clone the repository:git clone https://github.com/
-joyalant/orangehrm-leave-automation
-2. Navigate to the project directory:cd orangehrm-leave-automation
-3. Run tests:
-   
+1. Clone the repository:
+2. Navigate to the project directory:
+3. Run the tests:
+
+---
+
 ## Notes
 - This automation suite is intentionally minimal and focused.
 - The goal is to demonstrate QA thinking, automation structure, and real-world analysis.
@@ -127,3 +129,4 @@ joyalant/orangehrm-leave-automation
 
 ## Author
 **Joyal Anto**
+
