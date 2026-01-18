@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="OrangeHRM Leave Suite">
+    <test name="Leave Management Tests">
+        <classes>
+            <class name="tests.LeaveFilterResetTest"/>
+            <class name="tests.LeaveStatusBehaviorTest"/>
+            <class name="tests.LeaveDataValidationTest"/>
+        </classes>
+    </test>
+</suite>
